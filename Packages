@@ -1,0 +1,899 @@
+Package: alsa-lib
+Version: 1.0.19-1
+Depends: kmod-sound-core
+Provides: 
+Source: feeds/packages/libs/alsa-lib
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 1037898
+Filename: alsa-lib_1.0.19-1_mipsel.ipk
+Size: 291621
+MD5Sum: 396b14967764aa15ebf74631c475200f
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-utils
+Version: 1.0.19-1
+Depends: alsa-lib, libncurses, libpthread
+Provides: 
+Source: feeds/packages/utils/alsa-utils
+Section: utils
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 279526
+Filename: alsa-utils_1.0.19-1_mipsel.ipk
+Size: 90291
+MD5Sum: 076e966feeb0113e9ba816314a79d58b
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: base-files-brcm-2.4
+Version: 14.1-unknown
+Depends: 
+Provides: 
+Source: package/base-files
+Section: base
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 212338
+Filename: base-files-brcm-2.4_14.1-unknown_mipsel.ipk
+Size: 29381
+MD5Sum: 754ffa749ee22f4f17be7d7a23a2360e
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: bplay
+Version: 0.991-1
+Depends: 
+Provides: 
+Source: package/bplay
+Section: sound
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 35932
+Filename: bplay_0.991-1_mipsel.ipk
+Size: 12150
+MD5Sum: 99d7ae274f5e33f64ea034a4ab2814d8
+Description:  The bplay package provides a simple command-line
+ utility for playing and recording audio files in
+ raw sample, VOC and WAV formats. To use this
+ program you need a soundcard of some kind and the
+ appropriate driver configured into your kernel.
+ When run the program creates two processes which
+ share a memory buffer. It does reading/writing on
+ the disk and the sound device simultaneously, in
+ order to be less liable to `pause' because the
+ disk is too slow or too busy.
+
+Package: bridge
+Version: 1.0.6-1
+Depends: 
+Provides: 
+Source: package/bridge-utils
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 35959
+Filename: bridge_1.0.6-1_mipsel.ipk
+Size: 9831
+MD5Sum: 13b1569c4e3a89cac4d6a8bd46022421
+Description:  Manage ethernet bridging: a way to connect networks together to 
+ form a larger network.
+
+Package: busybox
+Version: 1.11.2-2.1
+Depends: 
+Provides: 
+Source: package/busybox
+Section: base
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 595374
+Filename: busybox_1.11.2-2.1_mipsel.ipk
+Size: 272534
+MD5Sum: 8cb3ce953c8b3b7a6dd3a7d9b4f5d0a7
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: dnsmasq
+Version: 2.47-3
+Depends: 
+Provides: 
+Source: package/dnsmasq
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 190041
+Filename: dnsmasq_2.47-3_mipsel.ipk
+Size: 76236
+MD5Sum: 90780d3a6be932a7b73355552c5c6296
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 0.51-2
+Depends: 
+Provides: 
+Source: package/dropbear
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 269927
+Filename: dropbear_0.51-2_mipsel.ipk
+Size: 100817
+MD5Sum: ec937e96568a7e3cf6a1f01113e8f1d0
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: glib2
+Version: 2.18.1-4.1
+Depends: libiconv, libintl, libpthread
+Provides: 
+Source: feeds/packages/libs/glib2
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 1436487
+Filename: glib2_2.18.1-4.1_mipsel.ipk
+Size: 476168
+MD5Sum: 7b1de389ca1d1a9208fcaf8ce4ffc992
+Description:  The GLib library of C routines
+
+Package: gnokii
+Version: 0.6.28-1
+Depends: libusb
+Provides: 
+Source: feeds/packages/utils/gnokii
+Section: utils
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 741137
+Filename: gnokii_0.6.28-1_mipsel.ipk
+Size: 262513
+MD5Sum: 1f9d1e28baa309e406c9c95ac6efbeb1
+Description:  Gnokii is a suite of programs linked against a backend
+ library that allows communication with the phones. It
+ currently supports the most mobile phones, all AT
+ capable mobiles as well as Symbian phones.
+
+Package: iptables-mod-conntrack
+Version: 1.3.8-4.1
+Depends: iptables, kmod-ipt-conntrack
+Provides: 
+Source: package/iptables
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 20986
+Filename: iptables-mod-conntrack_1.3.8-4.1_mipsel.ipk
+Size: 2758
+MD5Sum: 0cc483e9a4345e905647ac700cb9f7f5
+Description:  Basic iptables extensions for connection tracking.
+ Includes:
+ - state
+
+Package: iptables-mod-nat
+Version: 1.3.8-4.1
+Depends: iptables, kmod-ipt-nat
+Provides: 
+Source: package/iptables
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 32390
+Filename: iptables-mod-nat_1.3.8-4.1_mipsel.ipk
+Size: 5117
+MD5Sum: 5f2b6e78aca5d9e940a3b6e11b406b39
+Description:  iptables extensions for basic NAT targets.
+ Includes:
+ - MASQUERADE
+ - SNAT
+ - DNAT
+
+Package: iptables
+Version: 1.3.8-4.1
+Depends: kmod-ipt-core
+Provides: 
+Source: package/iptables
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 129891
+Filename: iptables_1.3.8-4.1_mipsel.ipk
+Size: 40244
+MD5Sum: 09ca3ada67bfed3f5775d9089c86dcdc
+Description:  IPv4 firewall administration tool.
+ Includes support for:
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kernel
+Version: 2.4.35.4-brcm-2.4-1
+Depends: 
+Provides: 
+Source: package/kernel
+Section: sys
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 4096
+Filename: kernel_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 648
+MD5Sum: 32deb116b192fc451bfe9fde655b7532
+Description:  Virtual kernel package
+
+Package: kmod-alsa
+Version: 2.4.35.4+1.0.14rc1-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: feeds/packages/sound/alsa
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 512867
+Filename: kmod-alsa_2.4.35.4+1.0.14rc1-brcm-2.4-1_mipsel.ipk
+Size: 194296
+MD5Sum: 42fe354f85c121cd5c01ad596e24dd0b
+Description:  Advanced Linux Sound Architecture
+
+Package: kmod-brcm-wl
+Version: 2.4.35.4+4.150.10.5.3-brcm-2.4-3.1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), wireless-tools
+Provides: 
+Source: package/broadcom-wl
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 908311
+Filename: kmod-brcm-wl_2.4.35.4+4.150.10.5.3-brcm-2.4-3.1_mipsel.ipk
+Size: 376765
+MD5Sum: 8072a9d97bf2d68b4a2c4efbb305442f
+Description:  This package contains the proprietary wireless driver for the Broadcom 
+ BCM43xx chipset.
+
+Package: kmod-diag
+Version: 2.4.35.4-brcm-2.4-4.1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: package/broadcom-diag
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 79040
+Filename: kmod-diag_2.4.35.4-brcm-2.4-4.1_mipsel.ipk
+Size: 11435
+MD5Sum: 5b61047ff4f489fd2623245adfb6e487
+Description:  Driver for router LEDs and Buttons
+
+Package: kmod-fs-nfs-common
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 251137
+Filename: kmod-fs-nfs-common_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 83011
+MD5Sum: 8431eb8e3023848834549ab5b97ab7aa
+Description:  Common NFS filesystem modules
+
+Package: kmod-fs-nfs
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), kmod-fs-nfs-common
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 156308
+Filename: kmod-fs-nfs_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 50584
+MD5Sum: f5b8418e3dd32f18173107d3c412d89a
+Description:  Kernel module for NFS support
+
+Package: kmod-ipt-conntrack
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 68227
+Filename: kmod-ipt-conntrack_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 17860
+MD5Sum: bd66da90c7a2a3a94770a592b71f8f2a
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - state
+
+Package: kmod-ipt-core
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 83942
+Filename: kmod-ipt-core_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 22463
+MD5Sum: 32fbddf75f891d1e25a7f2ede16aee28
+Description:  Netfilter core kernel modules
+ Includes:
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - TCPMSS
+ - REJECT
+
+Package: kmod-ipt-nat
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), kmod-ipt-core, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 62923
+Filename: kmod-ipt-nat_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 16420
+MD5Sum: 8405a4ff0874c110b09144baec31c614
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), kmod-ipt-core, kmod-ipt-nat
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 48942
+Filename: kmod-ipt-nathelper_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 10501
+MD5Sum: 9a77a05247d168f340f58c11a6388ae7
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - conntrack_ftp
+ - nat_ftp
+ - conntrack_irc
+ - nat_irc
+ - conntrack_tftp
+ - nat_tftp
+
+Package: kmod-sound-core
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 35198
+Filename: kmod-sound-core_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 4964
+MD5Sum: 3ffba9140d6e1798da9614251dca55f5
+Description:  Kernel modules for sound support
+
+Package: kmod-switch
+Version: 2.4.35.4-brcm-2.4-1.1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: package/switch
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 61934
+Filename: kmod-switch_2.4.35.4-brcm-2.4-1.1_mipsel.ipk
+Size: 14318
+MD5Sum: 15036caa8a8671fe29803ed682c722dd
+Description:  This package contains switch drivers for ADM6996L and BCM53XX RoboSwitch.
+
+Package: kmod-usb-audio
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), kmod-usb-core, kmod-sound-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 89734
+Filename: kmod-usb-audio_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 26176
+MD5Sum: 9a5618d6d198217a6653b05bf7011f4a
+Description:  Kernel support for USB audio devices
+
+Package: kmod-usb-core
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 141168
+Filename: kmod-usb-core_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 46577
+MD5Sum: 253f1a9b188e4c00fffb6188c8e81cf0
+Description:  Kernel support for USB
+
+Package: kmod-usb-ohci
+Version: 2.4.35.4-brcm-2.4-1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 53641
+Filename: kmod-usb-ohci_2.4.35.4-brcm-2.4-1_mipsel.ipk
+Size: 14031
+MD5Sum: d45f49a70e598dc001bdc95ad114e350
+Description:  Kernel support for USB OHCI controllers
+
+Package: kmod-wlcompat
+Version: 2.4.35.4+4.150.10.5.3-brcm-2.4-3.1
+Depends: kernel (=2.4.35.4-brcm-2.4-1), wireless-tools
+Provides: 
+Source: package/broadcom-wl
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 28085
+Filename: kmod-wlcompat_2.4.35.4+4.150.10.5.3-brcm-2.4-3.1_mipsel.ipk
+Size: 2769
+MD5Sum: db9d6baf2915405757900bc5e8d18e36
+Description:  This package contains a wrapper module, that provides Wireless Extension 
+ support for the proprietary Broadcom wl module.
+
+Package: libflac
+Version: 1.1.2-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/flac
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 195170
+Filename: libflac_1.1.2-1_mipsel.ipk
+Size: 62511
+MD5Sum: 3f39a6aee803567cb8bd0023627647c7
+Description:  Free Lossless Audio Codec library
+
+Package: libgcc
+Version: 3.4.6-14.1
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 67194
+Filename: libgcc_3.4.6-14.1_mipsel.ipk
+Size: 23234
+MD5Sum: 4d3477b4730452f146b9b8da14b8f298
+Description:  GCC support library
+
+Package: libiconv
+Version: 1.9.1-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/libiconv
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 33431
+Filename: libiconv_1.9.1-1_mipsel.ipk
+Size: 10595
+MD5Sum: 3a489c0a30cbefb89818d08d8860347f
+Description:  Character set conversion library
+
+Package: libid3tag
+Version: 0.15.1b-1
+Depends: zlib
+Provides: 
+Source: feeds/packages/libs/libid3tag
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 94028
+Filename: libid3tag_0.15.1b-1_mipsel.ipk
+Size: 25362
+MD5Sum: d500dc02187f16278e19990889aa75a7
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both 
+ ID3v1 and the various versions of ID3v2.
+
+Package: libintl
+Version: 0.16.1-4
+Depends: 
+Provides: 
+Source: feeds/packages/libs/gettext
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 44794
+Filename: libintl_0.16.1-4_mipsel.ipk
+Size: 15747
+MD5Sum: d0ee1b03c39af6f7fa00f9d10dd9aa2c
+Description:  GNU Internationalization library
+
+Package: libmad
+Version: 0.15.1b-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/libmad
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 98981
+Filename: libmad_0.15.1b-1_mipsel.ipk
+Size: 62983
+MD5Sum: 56c76387c27d9a7d13c673f7a78b5f87
+Description:  MAD is a high-quality MPEG audio decoder. It currently supports 
+ MPEG-1 and the MPEG-2 extension to lower sampling frequencies, 
+ as well as the de facto MPEG 2.5 format. All three audio layers - 
+ Layer I, Layer II, and Layer III (i.e. MP3) - are fully implemented.
+
+Package: libncurses
+Version: 5.6-1
+Depends: 
+Provides: 
+Source: package/ncurses
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 425516
+Filename: libncurses_5.6-1_mipsel.ipk
+Size: 142815
+MD5Sum: e3e96d9ad4e807bb00db42b2fad24f57
+Description:  Terminal handling library
+
+Package: libpthread
+Version: 0.9.29-14.1
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 83890
+Filename: libpthread_0.9.29-14.1_mipsel.ipk
+Size: 19359
+MD5Sum: ad64799652dbccc456bdb4d33595c09c
+Description:  POSIX thread library
+
+Package: libuci
+Version: 0.7.3-1
+Depends: 
+Provides: 
+Source: package/uci
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 41399
+Filename: libuci_0.7.3-1_mipsel.ipk
+Size: 14353
+MD5Sum: 90e68731b00e80ae3044098c90c49fe8
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libusb
+Version: 0.1.12-2
+Depends: 
+Provides: 
+Source: feeds/packages/libs/libusb
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 40296
+Filename: libusb_0.1.12-2_mipsel.ipk
+Size: 10539
+MD5Sum: 33a70f8cd7c0d43078699cf609eb3224
+Description:  A library for accessing Linux USB devices
+
+Package: libvorbisidec
+Version: 1.0.2+svn14261-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/libvorbisidec
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 133073
+Filename: libvorbisidec_1.0.2+svn14261-1_mipsel.ipk
+Size: 78641
+MD5Sum: f940849e1306dbb1b3691877e845fb4e
+Description:  libvorbisidec is "tremor", a fixed-point implementation of libvorbis.
+ It also has libogg built-in. It is suitable as a replacement for 
+ libvorbis and libogg in tremor-aware applications.
+ Tremor is a decoder only.
+
+Package: madplay
+Version: 0.15.2b-1
+Depends: libid3tag, libmad
+Provides: 
+Source: feeds/packages/sound/madplay
+Section: sound
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 112267
+Filename: madplay_0.15.2b-1_mipsel.ipk
+Size: 31742
+MD5Sum: 8bc55ba16439e1c7b2866e54002700f7
+Description:  MAD is an MPEG audio decoder. It currently only supports the MPEG 1 
+ standard, but fully implements all three audio layers (Layer I, Layer II, 
+ and Layer III, the latter often colloquially known as MP3.). There is also 
+ full support for ID3 tags.
+
+Package: mpc
+Version: 0.14-1
+Depends: 
+Provides: 
+Source: feeds/packages/sound/mpc
+Section: sound
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 76896
+Filename: mpc_0.14-1_mipsel.ipk
+Size: 24386
+MD5Sum: 26f53d78a02d31944e03c222675f5537
+Description:  MPD is a music player supporting flac, mp3 and ogg files.
+ It is typically controlled over a network using one of it's many 
+ clients including mpc(console), gmpc(gnome), phpmp(php) etc.
+ this is MPC
+
+Package: mpd
+Version: 0.14-1.1
+Depends: libflac, libid3tag, libmad, libvorbisidec, glib2
+Provides: 
+Source: feeds/packages/sound/mpd
+Section: sound
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 277192
+Filename: mpd_0.14-1.1_mipsel.ipk
+Size: 99627
+MD5Sum: 312d8d2b6be458876480df885a12d68d
+Description:  MPD is a music player supporting flac, mp3 and ogg files.
+ It is typically controlled over a network using one of it's many
+ clients including mpc(console), gmpc(gnome), phpmp(php) etc.
+
+Package: nas
+Version: 4.150.10.5.3-3.1
+Depends: nvram
+Provides: 
+Source: package/broadcom-wl
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 161217
+Filename: nas_4.150.10.5.3-3.1_mipsel.ipk
+Size: 69763
+MD5Sum: f5ea6956c51cf8e6928a11c6166569dc
+Description:  This package contains the proprietary WPA/WPA2 authenticator (nas) for the 
+ proprietary Broadcom wl driver.
+
+Package: nvram
+Version: 1
+Depends: 
+Provides: 
+Source: package/nvram
+Section: utils
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 35545
+Filename: nvram_1_mipsel.ipk
+Size: 5361
+MD5Sum: 09ecd5b7f7682c18c8f69310ca7c8b31
+Description:  This package contains an utility to control broadcom's 'nvram' config area.
+
+Package: opkg
+Version: 4564-3.1
+Depends: 
+Provides: 
+Source: package/opkg
+Section: base
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 194260
+Filename: opkg_4564-3.1_mipsel.ipk
+Size: 67083
+MD5Sum: 6f7f884d187cf9ecc3a2319a11072385
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: phidget-service
+Version: 2.1.4.20080924-1
+Depends: phidget21
+Provides: 
+Source: feeds/packages/net/phidget21
+Section: misc
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 120631
+Filename: phidget-service_2.1.4.20080924-1_mipsel.ipk
+Size: 34900
+MD5Sum: 3597655cd835646b41418e1afc9f73f4
+Description:  The Phidget Web Service.
+
+Package: phidget21-servo-utils
+Version: 2.1-1
+Depends: phidget21
+Provides: 
+Source: package/phidget21-servo-utils
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 40351
+Filename: phidget21-servo-utils_2.1-1_mipsel.ipk
+Size: 10776
+MD5Sum: 723158403abffdf846ce274ee7f27b01
+Description:  Servo controller programs for the Phidget library.
+
+Package: phidget21
+Version: 2.1.4.20080924-1
+Depends: 
+Provides: 
+Source: feeds/packages/net/phidget21
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 306407
+Filename: phidget21_2.1.4.20080924-1_mipsel.ipk
+Size: 103023
+MD5Sum: d4d78a8d8d61688596f487882c409241
+Description:  The Phidget API library.
+
+Package: rawrec
+Version: 0.9.98-1
+Depends: 
+Provides: 
+Source: package/rawrec
+Section: sound
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 50821
+Filename: rawrec_0.9.98-1_mipsel.ipk
+Size: 14731
+MD5Sum: 74d0fd5991442e3430b3e2322c7b75c5
+Description:  The rawrec package provides a simple command-line
+ utility for playing and recording audio files in
+ raw sample.
+
+Package: uci
+Version: 0.7.3-1
+Depends: libuci
+Provides: 
+Source: package/uci
+Section: base
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 38153
+Filename: uci_0.7.3-1_mipsel.ipk
+Size: 6959
+MD5Sum: 471d95413009bad66b44ea48ebaf00ca
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibc
+Version: 0.9.29-14.1
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 525527
+Filename: uclibc_0.9.29-14.1_mipsel.ipk
+Size: 212653
+MD5Sum: 17e3c6d2bffdef1a0235e4a23d5211d1
+Description:  C library embedded systems
+
+Package: wireless-tools
+Version: 29-2
+Depends: 
+Provides: 
+Source: package/wireless-tools
+Section: net
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 89895
+Filename: wireless-tools_29-2_mipsel.ipk
+Size: 32799
+MD5Sum: a728648588dcef65dc626dc1466afd73
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: wlc
+Version: 4.150.10.5.3-3.1
+Depends: 
+Provides: 
+Source: package/broadcom-wl
+Section: kernel
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 54933
+Filename: wlc_4.150.10.5.3-3.1_mipsel.ipk
+Size: 12341
+MD5Sum: b2b4a8f2d240705ffde2416f71f767a0
+Description:  This package contains an utility for initializing the proprietary Broadcom 
+ wl driver.
+
+Package: zlib
+Version: 1.2.3-5
+Depends: 
+Provides: 
+Source: package/zlib
+Section: libs
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: mipsel
+Installed-Size: 80048
+Filename: zlib_1.2.3-5_mipsel.ipk
+Size: 35692
+MD5Sum: 9b9d4d8787626e265808f587ccb60e4d
+Description:  Library implementing the deflate compression method
+
